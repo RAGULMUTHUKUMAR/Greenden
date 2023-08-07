@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- ========== Start navobar ========== -->
+  <nav class="navbar bg-success w-100 ">
+    <div class=" d-flex flex-row justify-content-around w-100 align-items-center">
+        <div class="d-flex justify-content-evenly w-100">
+          <a class="navbar-brand fs-2" href="./index.html">Greenden</a>
+          <button class="navbar-toggler me-5 ms-4 d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="d-none navbarlg d-lg-flex me-5 w-100 align-items-center pt-3 ">
+          <ul class="d-flex flex-row  gap-3 list-unstyled" >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#we">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#abouts">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#product">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#cont">Contact</a>
+            </li>
+          </ul>
+        </div>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title" id="offcanvasNavbarLabel">Greenden</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#we">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#abouts">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#product">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#cont">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- ========== End navobar ========== -->
+
+  <!-- ========== Start hearo section ========== -->
+
+  <div class="row bg-success text-center  p-lg-5 mt-5 mb-4" id="we">
+    <div class="col-8  d-flex flex-column mt-4 gap-2 gap-lg-4 mx-auto ">
+      <p>
+        We Offer You a Wide Range of Artifical and Natural Flowers
+      </p>
+      <h1>Plants for Your Interior</h1>
+      <div class="flex flex-column flex-md-row ">
+        <button class="btn btn-dark p-2">Shop   Now</button>
+        <button class="btn btn-dark mt-2">Watch Video</button>
+      </div>
+      <p class="para">160+ Plant Species | 100+ clients</p>
+    </div>
+    <div class="col-4 d-none d-lg-block header heroleftside">
+      <img src="./Images/headerplant.jpg" class="p-4" />
+    </div>
+  </div>
+  <!-- ========== End hearo section ========== -->
+
+  <!-- ========== Start about section ========== -->
+  <div class="row d-flex flex-column flex-lg-row gap-4 justify-content-center l justify-content-lg-start gap-lg-5 align-items-center text-center m-2 box p-4" id="abouts">
+    <h2>About Us</h2>
+    <p>This site for those who admire the beauty and harmony of nature</p>
+    <div class="col-lg-3 col-12  col-md-9  border border-black  mx-auto  ">
+      <img style="width: 50px; height: 50px" class="m-2" src="./Images/leaf.png" alt="" />
+      <h5>Large Assortment</h5>
+      <p>
+        We offer our customer more then 15,000 item of natural and artificial
+        flowers,trees and many accessories for floristry
+      </p>
+    </div>
+    <div class="col-lg-3 col-12  col-md-9 border border-black mx-auto ">
+      <img style="width: 50px; height: 50px" class="m-2" src="./Images/luggage.png" alt="" />
+      <h5>Free Shipping</h5>
+      <p>
+        We offer our customer more then 15,000 item of natural and artificial
+        flowers,trees and many accessories for floristry
+      </p>
+    </div>
+    <div class="col-lg-3 col-12 col-md-9  border border-black mx-auto ">
+      <img style="width: 50px; height: 50px" class="m-2 " src="./Images/telephone.png" alt="" />
+      <h5>24/7 Support</h5>
+      <p>
+        We offer our customer more then 15,000 item of natural and artificial
+        flowers,trees and many accessories for floristry
+      </p>
+    </div>
+  </div>
+  <!-- ========== End about section ========== -->
+
+  <!-- ========== Start products section ========== -->
+  <div class="row d-flex flex-c text-center bg-success " id="product">
+    <h1>Products</h1>
+    <div class="col">
+      <img class="m-2" src="./Images/1.jpg" alt="" />
+      <h4>Natural Plants</h4>
+    </div>
+    <div class="col">
+      <img class="m-2" src="./Images/2.jpg" alt="" />
+      <h4>Natural Plants</h4>
+    </div>
+    <div class="col">
+      <img class="m-2" src="./Images/3.jpg" alt="" />
+      <h4>Natural Plants</h4>
+    </div>
+    <p>
+      plastic and textile products are a practical solution for everyone who
+      loves flowering plants but dose not have the some or desire to care foe
+      them
+    </p>
+  </div>
+  <!-- ========== End products section ========== -->
+
+  <!-- ========== Start best seller ========== -->
+  <div class="row text-center  d-flex flex-column flex-lg-row  flex-md-row gap-2 gap-lg-2 best  px-lg-5">
+    <h1 class="d-lg m-3">Best Seller</h1>
+    <div class="col-md-4 col-lg-2 mx-auto">
+      <img src="./Images/img1.jpg" alt="" />
+      <h1 class="d-lg fs-6">Artificial Plants</h1>
+      <h3 class="d-lg fs-6">$20</h3>
+    </div>
+    <div class="col-md-4 col-lg-2 mx-auto">
+      <img src="./Images/img2.jpg" alt="" />
+      <h1 class="d-lg fs-6">Natural Plants</h1>
+      <h3 class="d-lg fs-6">$130</h3>
+    </div>
+    <div class="col-md-4 col-lg-2 mx-auto">
+      <img src="./Images/img3.jpg" alt="" />
+      <h1 class="d-lg fs-6">Blosom Plants</h1>
+      <h3 class="d-lg fs-6">$40</h3>
+    </div>
+    <div class="col-md-4 col-lg-2 mx-auto">
+      <img src="./Images/img4.jpg" alt="" />
+      <h1 class="d-lg fs-6">Artificial Plants</h1>
+      <h3 class="d-lg fs-6">$200</h3>
+    </div>
+  </div>
+  <!-- ========== End best seller ========== -->
+
+  <!-- ========== Start feedback section ========== -->
+   <section class="bg-success d-grid">
+    <div class=" d-lg d-flex align-items-center justify-content-center  text-center mx-auto">
+      <div class="d-none d-lg-block">
+        <img src="./Images/girl.jpg" alt="" />
+      </div>
+      <div class="mx-auto text-center">
+        <h1 class="fs-5 text-center m-2 d-lg fs-1">What Our Happy Clients Says</h1>
+        <p class="d-lg text-center f">
+          "Possibility to purchase at any time. Regardess of the season,
+          wheather and time of day, any flowers can be used to decorate a room."
+          Mark shelly<i class="fa-solid fa-star" style="color: #ffdd00;"></i><i class="fa-solid fa-star"
+            style="color: #ffdd00;"></i><i class="fa-solid fa-star" style="color: #ffdd00;"></i><i
+            class="fa-solid fa-star" style="color: #ffdd00;"></i><i class="fa-solid fa-star" style="color: #ffdd00;"></i>
+        </p>
+      </div>
+    </div>
+   </section>
+  <!-- ========== End feedback section ========== -->
+
+  <!-- ========== Start newsletter ========== -->
+  <div class="row text-center d-flex gap-2" id="cont">
+    <h1>Join Our News Letter</h1>
+    <p>Singup for our email newspapper to get exclusive discount, updates,and more</p>
+    <div class="d-grid">
+      <input type="text" placeholder="Enter Your Email..." class="w-75  mx-auto text-center">
+    </div>
+    <div><button class="btn btn-dark">Subscribe</button></div>
+  </div>
+
+  <!-- ========== End newsletter ========== -->
+  <hr>
+  <!-- ========== Start footer ========== -->
+  <div class="row ps-2">
+    <h1>Greenden</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, tenetur.</p>
+    <div class="col fs-1 d-flex flex-r gap-3 icon"><i class="fa-brands fa-facebook" style="color: #000000;"></i><i
+        class="fa-brands fa-square-twitter" style="color: #000000;"></i><i class="fa-brands fa-square-instagram"
+        style="color: #000000;"></i></div>
+    <p>@ 2023 Greenden.com</p>
+  </div>
+  <!-- ========== End footer ========== -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

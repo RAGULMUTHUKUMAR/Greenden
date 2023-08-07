@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+
+.navbarlg ul  li a:hover,.navbar-nav li a:hover{
+    color: white;
+}
+.navbarlg ul  li a,.navbar-nav li a{
+    font-size: 25px;
+}
+
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position:fixed !important;
+    top: 0;
+    left: 0;
+}
+.heroleftside img {
+    animation-name: lefts;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2.3s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes lefts {
+    0%{
+        margin-right: -200%;
+    }
+    100%{
+        margin-right: 0%;
+    }
+}
+
+
+
+.para{
+    color: gray;
+}
+
+.box{
+    gap: 10px;
+}
+
+.icon i{
+    color: black;
+    
+}
+
+
+.sub{
+    background-color: black;
+    color: white;
+
+}
+
+.best img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.header{
+    width: 200px;
+    height: 300px;
+    margin-top: 10px;
+}
